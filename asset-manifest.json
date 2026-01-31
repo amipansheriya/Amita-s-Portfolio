@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Amita-s-Portfolio/static/css/main.e601f9e6.css",
+    "main.js": "/Amita-s-Portfolio/static/js/main.b67c7373.js",
+    "static/js/453.a7d99afe.chunk.js": "/Amita-s-Portfolio/static/js/453.a7d99afe.chunk.js",
+    "static/media/homeImg.JPG": "/Amita-s-Portfolio/static/media/homeImg.e7130f500c81b9191d98.JPG",
+    "static/media/bootstrap-icons.woff?": "/Amita-s-Portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Amita-s-Portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/dark.png": "/Amita-s-Portfolio/static/media/dark.8d1da2b484ebe4986378.png",
+    "static/media/bootstrap.png": "/Amita-s-Portfolio/static/media/bootstrap.f132cb791703420e69ca.png",
+    "static/media/reactjs.svg": "/Amita-s-Portfolio/static/media/reactjs.ee97676b045a28e95ac479c7e65875ae.svg",
+    "static/media/logo.svg": "/Amita-s-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Amita-s-Portfolio/index.html",
+    "static/media/css.svg": "/Amita-s-Portfolio/static/media/css.7fea836b7dacf2afa28a8e122daea04b.svg",
+    "static/media/js.svg": "/Amita-s-Portfolio/static/media/js.5e749bd02cc55ae0b86a0a7cffe42e5a.svg",
+    "static/media/html.svg": "/Amita-s-Portfolio/static/media/html.845da83b4b897fd9afd2d12705f9ee42.svg",
+    "main.e601f9e6.css.map": "/Amita-s-Portfolio/static/css/main.e601f9e6.css.map",
+    "main.b67c7373.js.map": "/Amita-s-Portfolio/static/js/main.b67c7373.js.map",
+    "453.a7d99afe.chunk.js.map": "/Amita-s-Portfolio/static/js/453.a7d99afe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e601f9e6.css",
+    "static/js/main.b67c7373.js"
+  ]
+}
