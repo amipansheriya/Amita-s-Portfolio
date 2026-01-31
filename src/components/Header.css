@@ -1,0 +1,180 @@
+.Header {
+    padding: 0px 20px;
+    color: #fff;
+    background-color: #100920;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.sticky {
+    position: fixed;
+    animation: flyDown 0.45s ease forwards;
+    box-shadow: 0 6px 25px rgba(71, 1, 101, 0.3);
+    z-index: 10000;
+}
+
+/* Brand container */
+.Brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+
+/* Logo image: 70% of header height */
+.Brand img {
+    height: 80%;
+}
+
+.MenuBar {
+    width: 100%;
+}
+
+.MenuBar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 35px;
+    /* better spacing */
+}
+
+
+.MenuBar ul li {
+    transition-duration: 0.3s;
+    cursor: pointer;
+    position: relative;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.menu-icon {
+  cursor: pointer;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 50%;
+
+  transition: 0.3s;
+
+  position: relative;
+  z-index: 10001; /* ABOVE mobile menu */
+}
+
+.menu-icon:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+
+
+.MenuBar ul li:hover {
+    color: #dcc9e8;
+    text-shadow: 1px 1px 0px #8A54F7;
+}
+
+.MenuBar ul li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(30deg, #EFE8FE, #8A54F7, #2B1557);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+
+.MenuBar ul li:hover::before {
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+
+
+.Hirebtn {
+    width: 130px;
+    height: 45px;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(30deg, #9867fa, #2B1557);
+    background-size: 200% 200%;
+    color: #fff;
+    border: none;
+    transition: background-position 1s;
+}
+
+.Hirebtn:hover {
+    background-position: 100% 0;
+}
+
+@keyframes flyDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* ---------- Mobile Menu ---------- */
+
+.MobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(135deg,
+            #100920,
+            #2b1557);
+
+    z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Menu container */
+.MobileMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Items */
+.MobileMenu ul li {
+    font-size: 24px;
+    font-weight: 600;
+
+    padding: 18px 0;
+    letter-spacing: 1px;
+
+    color: #fff;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.MobileMenu ul li:hover {
+    color: #8a54f7;
+    transform: translateY(-2px);
+}

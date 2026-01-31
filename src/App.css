@@ -1,0 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body{
+  background: radial-gradient(circle at top left, #140421);
+  cursor: none;
+}
