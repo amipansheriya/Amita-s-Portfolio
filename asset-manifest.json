@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Amita-s-Portfolio/static/css/main.752391dc.css",
+    "main.css": "/Amita-s-Portfolio/static/css/main.a212ed96.css",
     "main.js": "/Amita-s-Portfolio/static/js/main.2141f4a6.js",
     "static/js/453.a7d99afe.chunk.js": "/Amita-s-Portfolio/static/js/453.a7d99afe.chunk.js",
     "static/media/homeImg.JPG": "/Amita-s-Portfolio/static/media/homeImg.e7130f500c81b9191d98.JPG",
@@ -14,12 +14,12 @@
     "static/media/css.svg": "/Amita-s-Portfolio/static/media/css.7fea836b7dacf2afa28a8e122daea04b.svg",
     "static/media/js.svg": "/Amita-s-Portfolio/static/media/js.5e749bd02cc55ae0b86a0a7cffe42e5a.svg",
     "static/media/html.svg": "/Amita-s-Portfolio/static/media/html.845da83b4b897fd9afd2d12705f9ee42.svg",
-    "main.752391dc.css.map": "/Amita-s-Portfolio/static/css/main.752391dc.css.map",
+    "main.a212ed96.css.map": "/Amita-s-Portfolio/static/css/main.a212ed96.css.map",
     "main.2141f4a6.js.map": "/Amita-s-Portfolio/static/js/main.2141f4a6.js.map",
     "453.a7d99afe.chunk.js.map": "/Amita-s-Portfolio/static/js/453.a7d99afe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.752391dc.css",
+    "static/css/main.a212ed96.css",
     "static/js/main.2141f4a6.js"
   ]
 }
